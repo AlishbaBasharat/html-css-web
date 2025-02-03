@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  .nav-head {
+    height: 6vh;
+    width: 100vw;
+    /* background-color: rgb(8, 79, 97); */
+    background-color: #cfc4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-shadow: 2px 5px 5px rgb(124, 110, 110);
+  }
+  .main-nav {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+  }
+  
+  .h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 1px 4px 4px rgb(118, 119, 87);
+  }
+  
+  .icons {
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .icons i {
+    font-size: 20px;
+    /* text-shadow: 2px 3px 3px rgb(129, 122, 122); */
+  }
+  .down-nav {
+    height: 8vh;
+    width: 100vw;
+    /* background-color: black; */
+    background-color: #cfc4b0;
+  }
+  .logo {
+    height: 15vh;
+    width: 35vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    height: 80px;
+    color: black;
+  }
+  .nav-search {
+    height: 15vh;
+    width: 35vw;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my-search {
+    height: 5vh;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .umrah-heading {
+    height: 10vh;
+    width: 100vw;
+    background-color: #cfc4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 5px 5px rgb(75, 68, 68);
+  }
+  .umrah-banner {
+    height: 70vh;
+    width: 100vw;
+    margin-top: 20px;
+    background-color: #d4c4a5;
+    display: flex;
+    /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    gap: 40px;
+  }
+  
+  .umrah-heading-one {
+    height: 70vh;
+    width: 30vw;
+    /* background-color: rgb(182, 182, 50); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .umrah-heading-one h1 {
+    font-size: 90px;
+    font-family: sans-serif;
+    color: white;
+    /* -webkit-text-stroke: 2px solid black; */
+    color: white; /* Text ka andar ka color */
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 5px 5px rgb(110, 93, 93);
+  }
+  
+  .umrah-heading-one h2 {
+    font-size: 90px;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+  }
+  
+  .umrah-pic {
+    height: 70vh;
+    width: 30vw;
+    /* background-color: rgb(50, 182, 61); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .umrah-heading-two {
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my-umrah-pic{
+    height: 50vh;
+    width: 20vw;
+    /* background-color: orange; */
+    background-image: url(/assets/06af639b5350d0b6e176f5f594698e58.jpg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 7px 7px rgb(129, 119, 119);
+   
+  }
+  
+  .umrah-heading-two h1{
+  
+   font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+    /* -webkit-text-stroke: 2px solid black; */
+    color: white; /* Text ka andar ka color */
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 5px 5px rgb(110, 93, 93);
+    border-bottom: 2px solid black;
+  }
+  .last-footer{
+    margin-top: 10px;
+    height: 15vh;
+    width: 100vw;
+    background-color: #CFC4B0;
+    
+  }
+  .right{
+    height:20vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+   padding-left: 30px;
+   font-family: arial;
+    
+  }
+  .right h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c0c0c;
+  }

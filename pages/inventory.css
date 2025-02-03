@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  .nav-head {
+      height: 6vh;
+      width: 100vw;
+      /* background-color: rgb(8, 79, 97); */
+      background-color: #cfc4b0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      text-shadow: 2px 5px 5px rgb(124, 110, 110);
+    }
+    .main-nav {
+      height: 15vh;
+      width: 100vw;
+      display: flex;
+    }
+    
+    .h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      padding-top: 20px;
+      align-items: center;
+      font-weight: 600;
+      font-family: "Dancing Script", cursive;
+      text-shadow: 1px 4px 4px rgb(118, 119, 87);
+    }
+    
+    .icons {
+      height: 15vh;
+      width: 30vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .icons i {
+      font-size: 20px;
+      /* text-shadow: 2px 3px 3px rgb(129, 122, 122); */
+    }
+    .down-nav {
+      height: 8vh;
+      width: 100vw;
+      /* background-color: black; */
+      background-color: #cfc4b0;
+    }
+    .logo {
+      height: 15vh;
+      width: 35vw;
+      /* background-color: blue; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo img {
+      height: 80px;
+      color: black;
+    }
+    .nav-search {
+      height: 15vh;
+      width: 35vw;
+      /* background-color: brown; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .my-search {
+      height: 5vh;
+      background-color: none;
+      border: none;
+      border-bottom: 1px solid black;
+    }
+  
+     .anchors {
+      padding-top: 15px;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      gap: 100px;
+    }
+    .anchors a {
+      color: #080808;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-family: sans-serif;
+      text-decoration: none;
+      text-shadow: 2px 3px 3px rgb(129, 122, 122);
+    }
+    .anchors a:hover{
+      border-bottom: 2px solid rgb(2, 2, 2) ;
+      font-size: 1.2rem;
+  }
+  .icons i:hover{
+    font-size: 30px;
+  }
+  
+  .umrah-main-banner{
+    margin-top: 30px;
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    background-color: #91A9C8; 
+    display: flex;
+  }
+  .umrah-banner-right{
+    height: 80vh;
+    width: 50vw;
+    background-color: rgb(243, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .umrah-banner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .umrah-banner-left-one {
+    height: 80vh;
+    margin-left: 30px;
+    width: 40vw;
+    /* background-color: #91A9C8; */
+    /* background-image: url(/assets/umrah-banner.png); */
+    background-image: url(/assets/umrah-banner.png);
+    background-size: cover;
+  }
+  .umrah-banner-right-one{
+    height: 60vh;
+    width: 30vw;
+    /* background-color: orange; */
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .inner-banner{
+    height: 80vh;
+    width: 30vw;
+    /* background-color: aquamarine; */
+    background-image: url(/assets/umrah-banner-2.png);
+    margin-bottom: 10px;
+    background-size: cover;
+    padding-right: 20px;
+  }
+  .heading{
+    height: 10vh;
+    width: 100vw;
+    background-color: #cfc4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading h1{
+    text-shadow: 2px 5px 5px rgb(124, 110, 110);
+  }
+  
+  .swipe{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    background-color: #cfc4b0;
+  }
